@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs
+/api/bin/Debug/netcoreapp2.0
+/api/obj
+/api/api.csproj.user
+/api/script.sql
