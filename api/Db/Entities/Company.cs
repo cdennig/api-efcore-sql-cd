@@ -18,6 +18,9 @@ namespace api.Db.Entities
         [MaxLength(250)]
         public string City { get; set; }
 
+        [MaxLength(250)]
+        public string Country { get; set; }
+
         public string PostalCode { get; set; }
 
         [Url]
