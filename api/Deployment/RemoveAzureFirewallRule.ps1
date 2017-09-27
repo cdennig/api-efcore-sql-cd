@@ -2,7 +2,7 @@
 param
 (
   [String] [Parameter(Mandatory = $true)] $ServerName,
-  [String] $AzureFirewallName = "AzureWebAppFirewall"
+  [String] $AzureFirewallName = "AzureVSTSAgent"
 )
 
 $ErrorActionPreference = 'Stop'

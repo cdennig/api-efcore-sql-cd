@@ -28,4 +28,13 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Migrations\sampledata\sampledata_down.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Migrations\sampledata\sampledata_up.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
